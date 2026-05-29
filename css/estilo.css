@@ -2,10 +2,14 @@
 @import "reset.css";
 @import "cores.css";
 
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf)
+}
 
 body {
     color: var(--platinum);
-    font-family: Fortnite;
+    font-family: PlayfairDisplay;
     background-color: var(--midnight-violet);
 }
 .tituloPrincipal{
